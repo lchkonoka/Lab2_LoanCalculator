@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Loan Calculator</string>
+    <string name="input_price">Price</string>
+    <string name="input_downPayment">Down Payment</string>
+    <string name="input_interestRate">Interest Rate (%)</string>
+    <string name="input_repayment">Repayment Period (month)</string>
+    <string name="input_salary">Salary</string>
+    <string name="input_monthlyPayment">Monthly repayment</string>
+    <string name="input_status">Loan Status</string>
+
+</resources>
