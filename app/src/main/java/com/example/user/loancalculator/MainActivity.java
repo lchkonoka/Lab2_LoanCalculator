@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity
         salary = Double.parseDouble(editTextSalary.getText().toString());
 
         //calculationssssssss
-        totalInterest = (price - downPayment) * interestRate * (repayment / 12);
+        totalInterest = (price - downPayment) * (interestRate / 100) * (repayment / 12);
         totalLoan = (price - downPayment) + totalInterest;
         monthlyPayment = totalLoan / repayment;
 
